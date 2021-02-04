@@ -3,9 +3,9 @@ Objective
 In this challenge, we will use loops to do some math. Check out the Tutorial tab to learn more.
 
 Task
-Given an integer, , print its first  multiples. Each multiple  (where ) should be printed on a new line in the form: n x i = result.
+Given an integer, n, print its first 10 multiples. Each multiple n*i (where 1<=i<=10 ) should be printed on a new line in the form: n x i = result.
 
-Example
+Examplen=3
 
 The printout should look like this:
 
@@ -21,13 +21,13 @@ The printout should look like this:
 3 x 10 = 30
 Input Format
 
-A single integer, .
+A single integer, n.
 
 Constraints
 
 Output Format
 
-Print  lines of output; each line  (where ) contains the  of  in the form:
+Print 10 lines of output; each line i (where 1<=i<=10) contains the result of n*i in the form:
 n x i = result.
 
 Sample Input
