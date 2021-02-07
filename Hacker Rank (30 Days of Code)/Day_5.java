@@ -1,3 +1,4 @@
+//LOOPS
 /*
 Objective
 In this challenge, we will use loops to do some math.
