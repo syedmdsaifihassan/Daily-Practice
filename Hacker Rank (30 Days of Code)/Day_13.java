@@ -1,6 +1,6 @@
 /*
 Objective
-Today, we will extend what we learned yesterday about Inheritance to Abstract Classes. Because this is a very specific object oriented concept, submissions are limited to the few languages that use this construct. Check out the Tutorial tab for learning materials and an instructional video.
+Today, we will extend what we learned yesterday about Inheritance to Abstract Classes. Because this is a very specific object oriented concept, submissions are limited to the few languages that use this construct.
 
 Task
 Given a Book class and a Solution class, write a MyBook class that does the following:
