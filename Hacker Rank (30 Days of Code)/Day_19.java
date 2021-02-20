@@ -14,7 +14,7 @@ Input Format
 A single line containing an integer, n.
 
 Constraints
-1<=n<=1000
+1 <= n <= 1000
 
 Output Format
 
@@ -23,10 +23,12 @@ You are not responsible for printing anything to stdout. The locked template cod
 Sample Input
 
 6
+
 Sample Output
 
 I implemented: AdvancedArithmetic
 12
+
 Explanation
 
 The integer 6 is evenly divisible by 1, 2, 3, and 6. Our divisorSum method should return the sum of these numbers, which is 1+2+3+6=12. The Solution class then prints I implemented: AdvancedArithmetic on the first line, followed by the sum returned by divisorSum (which is 12) on the second line.
