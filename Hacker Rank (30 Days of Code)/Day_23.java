@@ -1,6 +1,6 @@
 /*
 Objective
-Today, we're going further with Binary Search Trees. Check out the Tutorial tab for learning materials and an instructional video!
+Today, we're going further with Binary Search Trees.
 
 Task
 A level-order traversal, also known as a breadth-first search, visits each level of a tree's nodes from left to right, top to bottom. You are given a pointer, root, pointing to the root of a binary search tree. Complete the levelOrder function provided in your editor so that it prints the level-order traversal of the binary search tree.
@@ -40,9 +40,11 @@ Sample Input
 7
 2
 1
+
 Sample Output
 
 3 2 5 1 4 7 
+
 Explanation
 
 The input forms the following binary search tree:
