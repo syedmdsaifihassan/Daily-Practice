@@ -26,8 +26,8 @@ The first line contains an integer, T (the number of test cases).
 The T subsequent lines each contain an integer, data, denoting the value of an element that must be added to the BST.
 
 Constraints
-1<=N<=20
-1<=node,data[i]<=100
+1 <= N <= 20
+1 <= node,data[i] <= 100
 
 Output Format
 
