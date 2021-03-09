@@ -13,7 +13,7 @@ Input Format
 A single string, S.
 
 Constraints
-1<=|S|<=6, where |S| is the length of string S.
+1 <= |S| <= 6, where |S| is the length of string S.
 S is composed of either lowercase letters (a-z) or decimal digits (0-9).
 
 Output Format
