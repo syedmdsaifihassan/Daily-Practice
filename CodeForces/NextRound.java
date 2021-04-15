@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
 158A Next Round
 
@@ -40,6 +38,8 @@ In the first example the participant on the 5th place earned 7 points. As the pa
 In the second example nobody got a positive score.
 
  */
+
+import java.util.Scanner;
 
  public class NextRound {
      public static void main(String[] args) {
