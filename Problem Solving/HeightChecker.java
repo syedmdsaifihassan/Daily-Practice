@@ -67,3 +67,39 @@ class Solution {
         return c;
     }
 }
+
+/*
+public class HeightChecker {
+    public static void main(String args[]) {
+        int [] heights = {1,1,4,2,1,3};
+        int n = heights.length;
+        int[] expected = new int[n];
+        int c=0;
+        
+        for(int i=0; i<n; i++) {
+            expected[i]=heights[i];
+        }
+        
+    
+        for(int i=0; i<n; i++) {
+            for(int j=i+1; j<n; j++) {
+                int temp=0;
+                if(expected[i]>expected[j]) {
+                    temp = expected[i];
+                    expected[i] = expected[j];
+                    expected[j] = temp;
+                }
+            }
+        }
+        System.out.println(expected);
+        
+        for(int i=0; i<n; i++) {
+            if(heights[i] != expected[i]) {
+                c++;
+            }
+        }
+        
+        System.out.println(c);
+    }
+}
+*/
