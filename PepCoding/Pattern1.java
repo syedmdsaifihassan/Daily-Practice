@@ -8,7 +8,9 @@ Input Format
 A number n
 
 Output Format
-pat11
+*	
+*	*
+...
 
 Constraints
 1 <= n <= 100
