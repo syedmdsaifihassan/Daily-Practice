@@ -80,15 +80,19 @@ public static void main(String[] args) throws Exception {
     }
     
     HashMap<Integer, Boolean> map = new HashMap<>();
+    // 1. Consider all elements are valid starting points of the sequence that's why all is true.
     for(int i=0; i<n; i++){
         map.put(a[i], true);
     }
     
+    // 2. Discard all invalid points
     for(int i=0; i<map.size(); i++){
         if(map.containsKey(a[i]-1) == true){
             map.put(a[i], false);
         }
     }
+    
+    // 3. Find the starting point of maximum length of consecutive elements
     int startPt = 0;
     int maxLen = 0;
     
