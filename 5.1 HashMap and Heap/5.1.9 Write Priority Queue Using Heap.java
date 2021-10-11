@@ -54,6 +54,19 @@ public class Main {
     public PriorityQueue() {
       data = new ArrayList<>();
     }
+    
+    // Heap Constructor
+    // input taken in array (when array elements are given)
+    // public PriorityQueue(int[] arr){
+    //     data = new ArrayList<>();
+    //     for(int i=0; i<arr.length; i++){
+    //         data.add(arr[i]);
+    //     }
+        
+    //     for(int i=(data.size()-2)/2; i>=0; i--){
+    //         downheapify(i);
+    //     }
+    // }
 
     public void add(int val) {
       // write your code here
@@ -152,5 +165,12 @@ public class Main {
       }
       str = br.readLine();
     }
+    
+    // when elements of array are given
+    // int[] arr = {12, 18, 11, 10, 280, -2, -56, 829, -822};
+    // PriorityQueue qu = new PriorityQueue(arr);
+    // while(qu.size()!=0){
+    //     System.out.println(qu.remove());
+    // }
   }
 }
