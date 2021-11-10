@@ -43,7 +43,8 @@ public class Main {
         
         for(int i=62; i>=0; i--){
             // check if the ith bit is on or off
-            long mask = (long)Math.pow(2,i);
+            // long mask = (long)Math.pow(2,i);
+            long mask = 1L<<i;
             if((n&mask) != 0 && c>0){
                 ans += ncr(i,c);
                 c--;
