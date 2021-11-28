@@ -46,3 +46,23 @@ class Solution {
         return (n==1);
     }
 }
+
+// Using Bit Manipulation
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        if(n<=0){
+            return false;
+        }
+        
+        int a = 1, pow = 0;
+        while(pow<32){
+            int num = (a<<pow);
+            if((num & n) == n){
+                return true;
+            }
+            pow++;
+        }
+        
+        return false;
+    }
+}
