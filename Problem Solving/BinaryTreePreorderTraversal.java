@@ -26,7 +26,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        //iterative
+        //iterative approach
         // Stack<TreeNode> st = new Stack<TreeNode>();
         // List<Integer> ans = new ArrayList<>();
         // if(root==null)  return ans;
@@ -39,7 +39,7 @@ class Solution {
         // }
         // return ans;
         
-        //recursive
+        //recursive approach
         List<Integer> ans = new ArrayList<>();
         if(root==null)  return ans;
         preOrder(root, ans);
