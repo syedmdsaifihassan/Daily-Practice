@@ -35,7 +35,7 @@ class Solution {
             for(int i=0; i<levelSize; i++){
                 TreeNode temp = queue.poll();
                 sum += temp.val;
-                if(temp.left!=null){
+                if(temp.left != null){
                     queue.add(temp.left);
                 }
                 if(temp.right!=null){
